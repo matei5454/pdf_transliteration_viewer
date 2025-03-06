@@ -19,6 +19,7 @@ class PdfViewer(QScrollArea):
     def set_image(self, pixmap):
         self.image_label.setPixmap(pixmap)
 
+#edit
 class EditWindow(QDialog):
     def __init__(self, word_data, parent=None):
         super().__init__(parent)
